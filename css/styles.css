@@ -1,0 +1,220 @@
+
+body {
+    background-color: white;
+    margin: 0 auto;
+    font-family: "Instrument Sans", Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+
+header,
+footer {
+    background-image: url("../images/header-background-min1.jpg");
+    min-height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+/** The header and navigation bar**/
+
+h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    color: #0a3641;
+    text-align: center;
+}
+
+.logo {
+    max-width: 100%;
+    width: 300px;
+    position: absolute;
+    z-index: 2;
+    left: 42%;
+    top: 10px;
+}
+nav li {
+    display: inline-block;
+    
+}
+
+nav a {
+    color: #534F4F;
+    text-decoration: none;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Sans-serif", Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    background-color: #727d8e;
+    color: #ffffff;
+}
+
+.nav-right {
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.2em;
+    color: #534F4F;
+}
+
+nav ul {
+    background-color: white;
+    padding: 12px;
+    margin-top: 100px;
+    border-top: 3px solid #C9C8CA;
+    border-bottom: 3px solid #C9C8CA;
+    position: absolute;
+    top: 115px;
+    left: 0;
+    right: 0;
+}
+
+/** Main part of the page **/
+
+h2,
+h3 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+main h2 {
+    font-size: 2em;
+    color: #0a3641;
+}
+
+h3 {
+    font-size: 35px;
+    font-style: italic;
+    background: linear-gradient(#565A60, #4B71AC);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: "Instrument Sans", Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 15px;
+}
+
+span {
+    font-weight: lighter;
+    font-family: "Sans-serif", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.new-arrivals {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.new-products {
+    max-width: 100%;
+    width: 400px;
+    border: 3px solid #A19EA1;   
+}
+
+.about-product {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #625D63;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+.info-image {
+    max-width: 100%;
+    display: block;
+    width: 60%;
+    padding-top: 120px;
+    padding-left: 100px;  
+}
+
+.info-text {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    top: -650px;
+    left: 1300px;
+    padding-right: 1500px;
+    margin: 0;
+    color:#0a3641;
+}
+
+/** Footer **/
+
+h4 {
+    text-align: center;
+    text-transform: uppercase;
+    color:#0a3641;
+    font-size: larger;
+}
+
+footer p {
+    text-align: center;
+    font-weight: bold;
+    color:#0a3641;
+}
+
+form {
+    padding-right: 680px;
+    padding-left: 680px;
+    padding-bottom: 30px;
+}
+
+input {
+    width: 100%;
+    padding: 6px;
+    margin: 5px 0;
+    border: 1px solid #A19EA1;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input:hover {
+    box-shadow: 2px 2px 5px rgba(88, 88, 88, 0.94);
+}
+
+button[type="submit"] {
+    background-color: white;
+    width: 300px;
+    display: block;
+    font-weight: bold;
+    font-family: "Instrument Sans", Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    margin-top: 10px;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0a3641;
+    color: white;
+}
+
+label {
+    font-size: small;
+}
+
+.logo-bottom {
+    max-width: 100%;
+    width: 300px;
+    position: absolute;
+    top: 2730px;
+    left: 150px;
+}
+
+
+
+
+

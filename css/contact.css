@@ -1,0 +1,31 @@
+h2 {
+    font-size: 50px;
+    font-style: italic;
+    background: linear-gradient(#565A60, #4B71AC);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: "Instrument Sans", Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 15px;
+}
+
+.center {
+    margin: auto;
+    width: 28%;
+    border: 2px solid transparent;
+    padding-bottom: 30px;
+}
+
+p {
+    text-align: start;
+}
+
+.link {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+fieldset {
+    background-color: #ECECEC;
+    padding: 30px;
+    margin: auto;
+}

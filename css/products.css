@@ -1,0 +1,45 @@
+.logo {
+    max-width: 100%;
+    width: 300px;
+    position: absolute;
+    z-index: 2;
+    left: 26%;
+    top: -40px;
+}
+
+h2 {
+    font-size: 35px;
+    font-style: italic;
+    background: linear-gradient(#565A60, #4B71AC);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: "Instrument Sans", Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+img {
+    max-width: 100%;
+    width: 650px;
+    padding-left: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.jacket-info {
+    position: absolute;
+    top: 620px;
+    left: 1100px;
+    font-size: 20px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 35px;
+    color: #0a3641;
+}
+
+.size {
+    font-size: 15px;
+    font-style: oblique;
+}
